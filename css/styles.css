@@ -184,12 +184,11 @@
  /* Портфолио */
  .list-portfolio .title-portfolio{
      color: var(--secondary-text-color);
-
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
  }
 
  .list-portfolio .portfolio-text{
@@ -199,14 +198,50 @@
  }
 
  /* Подвал */
+
+.logo-footer{
+        font-family: 'Raleway';
+            font-style: 400;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+            text-decoration: none;
+}
+
+.img-logo-footer{
+    font-family: 'Raleway';
+        font-style: 400;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+        text-decoration: none;
+}
+
  .address .text-address{
-     color: rgba(255, 255, 255, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
  }
 
  .address .link{
-     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+       color: rgba(255, 255, 255, 0.6);
+       text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
  }
+
   footer{
       background-color: #2F303A;;
   }
