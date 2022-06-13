@@ -90,6 +90,12 @@
 .auth-nav .link-mail{
     color: var(--primary-text-color);
     text-decoration: none;
+    font-family: 'Roboto';
+        font-style: 400;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 .link-mail:hover,
 .link-mail:focus{
@@ -99,13 +105,19 @@
 .auth-nav .link-tel{
     color: var(--primary-text-color);
     text-decoration: none;
+    font-family: 'Roboto';
+        font-style: 400;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 }
 .link-tel:hover,
 .link-tel:focus{
     color: var(--accent-color);
 }
     /* Герой */
-    .hero-title{
+    .hero-title h1{
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 900;
@@ -200,13 +212,25 @@
   }
 
   /* Кнопка */
+
+.button-hero{
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
   .button{
-      color: #212121;
-      background-color: #F5F4FA;
-      font-family: 'Roboto';
+    font-family: 'Roboto';
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.6;
+        line-height: 1.62;
         text-align: center;
         letter-spacing: 0.03em;
 
@@ -214,16 +238,17 @@
   }
 
   .primary-button{
-      color: #FFFFFF;
+    color: #FFFFFF;
       background-color: #2196F3;
       font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.03em;
-
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+      letter-spacing: 0.03em;
+        
         cursor: pointer;
   }
+
 
  
 
